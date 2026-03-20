@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
+
 
 # Load model
 model = tf.keras.models.load_model("models/lstm_model.keras", compile=False)
